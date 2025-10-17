@@ -1,20 +1,24 @@
-# -------------------------------
-# Core Dependencies for Unstructured Data Analytics
-# -------------------------------
+# --- Core ---
 streamlit==1.39.0
 pillow==10.4.0
-gTTS==2.5.1
 numpy==1.26.4
+
+# --- Audio ---
+gTTS==2.5.1
 pydub==0.25.1
 SpeechRecognition==3.10.4
-# Whisper (safer fork, compatible with new Python)
 git+https://github.com/openai/whisper.git
+
+# --- Image ---
 deepface==0.0.93
-rembg==2.0.57
+rembg==2.0.66
+
+# --- Text ---
 textblob==0.18.0.post0
 wordcloud==1.9.3
 matplotlib==3.9.2
 spacy==3.7.5
-# TensorFlow compatible with Python 3.11 max
-tensorflow==2.17.0
-tf-keras==2.17.0
+
+# --- ML/AI Framework ---
+tensorflow==2.15.0
+tf-keras==2.15.0
